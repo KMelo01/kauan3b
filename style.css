@@ -1,0 +1,22 @@
+body{
+    background-color: darkgray;
+
+}
+nav{
+    text-transform: uppercase;
+    display: inline-flex;
+    background-color: coral;
+    width: 200px;
+    height: 800px;
+    align-items: center;
+}
+nav li a{
+    color: aliceblue;
+    text-decoration: dashed;
+}
+header{
+    background-color: rgba(0, 255, 255, 0.795);
+    height: 100px;
+    color:blanchedalmond;
+    text-align: center;
+}
