@@ -3,7 +3,7 @@ body{
 
 }
 nav{
-    text-transform: uppercase;
+    text-transform:uppercase;
     display: inline-flex;
     background-color: coral;
     width: 200px;
@@ -16,7 +16,14 @@ nav li a{
 }
 header{
     background-color: rgba(0, 255, 255, 0.795);
-    height: 100px;
+    height: 150px;
     color:blanchedalmond;
     text-align: center;
+}
+nav li a:hover{
+    color: brown;
+}
+#sapato{
+    width: 100px;
+    height: 100%;
 }
