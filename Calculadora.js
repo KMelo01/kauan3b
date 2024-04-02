@@ -1,6 +1,6 @@
 function calcularSoma() {
     var num1 = document.getElementById('num1').value;
-    var num2s = document.getElementById('num2').value;
+    var num2 = document.getElementById('num2').value;
     // Converter os valores para números
     num1 = parseFloat(num1);
     num2 = parseFloat(num2);
@@ -12,7 +12,7 @@ function calcularSoma() {
     // Calcular a soma dos dois números
     var soma = num1 + num2;
     // Exibir o resultado na página
-    document.getElementById('resultado').innerText = 'Resultado:'+ soma;
+    document.getElementById('resultado').innerText = 'resultado:'+ soma;
   }
 
 
@@ -30,7 +30,7 @@ function calcularSoma() {
     // Calcular a soma dos dois números
     var soma = num1 - num2;
     // Exibir o resultado na página
-    document.getElementById('resultado').innerText = 'Resultado:'+ soma;
+    document.getElementById('resultado').innerText = 'resultado:'+ soma;
   }
 
   function calcularMultiplicacao() {
@@ -48,7 +48,7 @@ function calcularSoma() {
     // Calcular a multiplicação dos dois números
     var multiplicacao = num1 * num2;
     // Exibir o resultado na página
-    document.getElementById('resultadomultiplicacao').innerText = 'Resultado:'+ multiplicacao;
+    document.getElementById('resultado').innerText = 'resultado:'+ multiplicacao;
   }
  
   function calcularDivisao() {
@@ -66,5 +66,5 @@ function calcularSoma() {
     // Calcular a divisão dos dois números
     var divisao = num1 / num2;
     // Exibir o resultado na página
-    document.getElementById('resultado').innerText = 'Resultado:'+ divisao;
+    document.getElementById('resultado').innerText = 'resultado:'+ divisao;
   }
