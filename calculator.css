@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(192, 195, 184);
+
+    text-align: center;
+    margin-top: 150px;
+
+}
+input{
+    height: 80px;
+    width: 80px;
+    font-size: large;
+}
+div{
+    background-color: rgb(164, 183, 175);
+
+}
+h1{
+    font-style: italic;
+    text-shadow: snow;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+}
+#display{
+    height: 60px;
+    width: 320px;
+}
